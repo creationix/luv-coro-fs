@@ -7,7 +7,7 @@ exports.tags = {"coro", "fs"}
 exports.license = "MIT"
 exports.author = { name = "Tim Caswell" }
 
-local uv = require('uv')
+local uv = require('luv')
 local fs = exports
 local pathJoin = require('path').join
 
